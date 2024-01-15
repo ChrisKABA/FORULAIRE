@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form method="post" action="">
+        <p>
+            <label for="FirstName">First Name :</label></br>
+            <input type="text" name="FirstName" id="FirstName">
+        </p>
+        <p>
+            <label for="LastName">Last Name :</label></br>
+            <input type="text" name="LastName" id="LastName">
+        </p>
+        <p>
+            <label for="email">Email :</label></br>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="password">Password :</label></br>
+            <input type="password" name="password" id="password">
+        </p>
+        <p>
+           Gender : </br>
+           <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label></br>
+           <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label></br>
+           <input type="radio" name="gender" value="other" id="other"><label for="other">Other</label></br>
+        </p>
+        <p>
+            <label for="dateBirth">Date of Birth :</label></br>
+            <input type="date" name="dateBirth" id="dateBirth">
+        </p>
+        <p>
+            <label for="webSite">Website :</label></br>
+            <input type="url" name="webSite" id="webSite">
+        </p>
+        <p>
+            <label for="contry">contry :</label></br>
+            <select name="contry" id="contry">
+                <option value="DRC">DRC</option>
+                <option value="USA">USA</option>
+                <option value="FRENCH">FRENCH</option>
+                <option value="RDC">CANADA</option>
+            </select>
+        </p>
+        <p>
+            <label for="message">Message :</label></br>
+            <TExtarea name="message" id="message"></TExtarea>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
